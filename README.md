@@ -1,6 +1,6 @@
 # docker-easyconnect
 
-让深信服开发的**非自由**的 EasyConnect 代理软件运行在 docker 中，并开放 Socks5 供宿主机连接以使用代理。（此外亦可通过 [ip forward 的方式](doc/usage.md#ip-forward) 来使用）
+让xx服开发的 EasyConnect 代理软件运行在 docker 中，并开放 Socks5 供宿主机连接以使用代理。（此外亦可通过 [ip forward 的方式](doc/usage.md#ip-forward) 来使用）
 
 基于 EasyConnect 官方“Linux”版的 deb 包以及 [@shmille](https://github.com/shmilee) 提供的[命令行版客户端 deb 包](https://github.com/shmilee/scripts/releases/download/v0.0.1/easyconn_7.6.8.2-ubuntu_amd64.deb)。
 
@@ -70,25 +70,3 @@ docker pull hagb/docker-easyconnect:TAG
 ## 参考资料
 
 登录过程的一个 hack ([docker-root/usr/local/bin/start-sangfor.sh](docker-root/usr/local/bin/start-sangfor.sh))参考了这篇文章：<https://blog.51cto.com/13226459/2476193>。在此对该文作者表示感谢。
-
-## 版权及许可证
-
-> Copyright © 2020 contributors
->
-> This work is free. You can redistribute it and/or modify it under the  
-> terms of the Do What The Fuck You Want To Public License, Version 2,  
-> as published by Sam Hocevar. See the COPYING file for more details. 
->
->        DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE  
->                    Version 2, December 2004  
->
-> Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>  
->
-> Everyone is permitted to copy and distribute verbatim or modified  
-> copies of this license document, and changing it is allowed as long  
-> as the name is changed.  
->  
->            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE  
->   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION  
->  
->  0. You just DO WHAT THE FUCK YOU WANT TO. 
